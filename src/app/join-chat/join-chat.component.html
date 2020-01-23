@@ -1,0 +1,10 @@
+<div style="margin: auto; margin-top: 100px; text-align: center;">
+    <img class="coderImage" src="/assets/hacker.png"/>
+    <div class="connect">
+        <p>lets join the meeting..</p>
+        <input name="userName" class="join-input" type="text" placeholder="Enter your name" autocomplete="off" [(ngModel)]="user.userName"/><br><br>
+        <input name="meetingId" class="join-input" type="text" placeholder="meetingId" autocomplete="off" [(ngModel)]="user.meetingId"/><br><br>
+        <button class="join-button" (click)="joinButtonClick()">Join</button>
+    </div>
+
+</div>

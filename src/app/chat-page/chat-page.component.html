@@ -1,0 +1,13 @@
+<div class="tool-bar">
+    <button (click)="leaveMeeting()" class="leave-button" >leave</button>
+</div>
+<div class="inbox-area">
+    <div  class="msg" *ngFor="let item of messageArray">
+        <span style="color:white;font-family: consolas;"><b>{{item.userName}} :</b> {{item.message}}</span>
+    </div>
+</div>
+
+<div class="input-msg">
+    <P>{{typingMsg.msg}}</P>
+    <input  class="message" name="textMessage"  placeholder="type your message..." autocomplete="off" [(ngModel)]="textMessage"/><button (click)="sendMessage()" class="send-button">send</button>
+</div>

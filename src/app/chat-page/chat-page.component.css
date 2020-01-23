@@ -1,0 +1,60 @@
+p{
+    color: yellow;
+    font-family:Consolas;
+}
+
+
+.input-msg
+{
+    width:100%;
+    position:fixed;
+    bottom: 0px;
+}
+.message
+{
+    width:78%;
+    padding:9px;
+    border: none;
+    font-family: consolas;
+    border:2px solid blue;
+    background-color: black;
+    color:white
+}
+.send-button
+{
+  outline: none;
+  padding: 9px; 
+  border:2px solid blue;
+}
+.msg
+{
+    border:1px solid yellow;
+    padding: 5px;
+    width:90%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.tool-bar
+{
+    height:20px;
+    padding:10px;
+    width:100%;
+    box-shadow: 5px 5px 10px blue;
+   
+    position: fixed;
+}
+.inbox-area
+{
+    position: relative;
+    top:100px;
+
+}
+
+.leave-button
+{
+    position: absolute;
+    right:40px;
+    border: none;
+    padding: 5px;
+}

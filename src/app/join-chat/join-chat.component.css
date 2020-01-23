@@ -1,0 +1,58 @@
+p{
+    color: yellow;
+    font-family:Consolas;
+}
+
+.coderImage
+{
+    height: 150px;
+    margin: auto;
+}
+
+.join-input
+{
+    border:2px solid blue;
+    outline: none;
+    padding: 5px;
+    color:white;
+    background-color: black;
+    font-family: consolas;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.join-button
+{
+    width: 97%;
+    border:2px solid blue;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.connect
+{
+    width: 60%;
+    padding: 20px;
+    box-shadow: 5px 5px 10px blue;
+    margin: auto;
+    
+
+}
+.input-msg
+{
+    width:100%;
+    position:fixed;
+    bottom: 0px;
+}
+.message
+{
+    width:78%;
+    padding:9px;
+    border: none;
+    font-family: consolas;
+    border:2px solid blue;
+    background-color: black;
+    color:white
+}
